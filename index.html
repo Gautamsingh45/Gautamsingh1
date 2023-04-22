@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Blockcept.ai</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="index.html">Home </a>
+         <a href="#about">About</a>
+         <a href="#service">Services  </a>
+         <a href="#vehicles">Our Vehicles</a>
+         <a href="#testimonial">Testimonial</a>
+         <a href="#contact">Contact</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                     <div class="logo">
+                        <a href="index.html"><img src="images/Edu_logo.jpeg" alt="#" style="border-radius: 10px;" /></a>
+                     </div>
+                  </div>
+                  <div class="col-md-8 col-sm-8">
+                     <div class="right_bottun">
+                        <ul class="conat_info d_none ">
+                           <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg">
+                              <!-- <div style="color: orange"> -->
+                                 <br>
+                                 <br>
+                                 <h1>MAHAVEER PREMIER LEAGUE-8</h1>
+                                 <span>PLAYER FORM FEE  <span style="color:black">500</span></span>
+                                 
+                                 <!-- <a class="read_more" href="#">Contact Us</a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="images/Mpl.jpg " alt="#" style="border-radius: 50px;"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <form id="form1" class="transfot">
+                                       <div class="col-md-12">
+                                          <span>MPl-8</span>
+                                          <h3>Player Form</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="fname" style="color: black; margin: 0px 70px 0px 0px;">Name...........:</label>
+                                          <input class="transfot_form" placeholder="enter name" type="text" name="fname" id="fname" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="lname" style="color: black; margin: 0px 50px 0px 0px;">FATHER NAME:</label>
+                                          <input class="transfot_form" placeholder="enter father name" type="text" name="lname" id="lname" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="email" style="color: black; margin: 0px 90px 0px 0px;">ADDRESS</label>
+                                          <input class="transfot_form" placeholder="enter address" type="address" name="email" id="email" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="age" style="color: black; margin: 0px 80px 0px 0px;">AGE...............</label required>
+                                          <input class="transfot_form" placeholder="enter age" type="number" name="age" id="age">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="player" style="color: black; margin: 0px 50px 0px 0px;">PLAYER (SPACIALIZATION):</label>
+                                          <!-- <input class="transfot_form" placeholder="Email" type="text" name="player" id="player"> -->
+                                          <select class="transfot_form" placeholder="PLAYER (SPACIALIZATION)"  name="player" id="player" required>
+                                             <option value="ALL_ROUNDER">ALL ROUNDER</option>
+                                             <option value="BATSMAN">BATSMAN</option>
+                                             <option value="BOWLER">BOWLER</option>
+                                           </select>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="last" style="color: black; margin: 0px 50px 0px 0px;">LAST PLAYING TEAM:</label>
+                                          <input class="transfot_form" placeholder="LAST PLAYING TEAM" type="text" name="last" id="last" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="contact" style="color: black; margin: 0px 50px 0px 0px;">CONTACT NO. :</label>
+                                          <input class="transfot_form" placeholder="enter contact number" type="number" name="contact" id="contact">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="shirt" style="color: black; margin: 0px 50px 0px 0px;">NAME ON T-SHIRT:</label>
+                                          <input class="transfot_form" placeholder="NAME ON T-SHIRT" type="text" name="shirt" id="shirt">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="tshirt" style="color: black; margin: 0px 50px 0px 0px;">NUMBER ON T-SHIRT:</label>
+                                          <input class="transfot_form" placeholder="NUMBER ON T-SHIRT" type="varchar" name="tshirt" id="tshirt">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="size" style="color: black; margin: 0px 90px 0px 0px;">T-SHIRT SIZE:</label>
+                                          <input class="transfot_form" placeholder="T-SHIRT SIZE:" type="varchar" name="size" id="size">
+                                       </div>
+                                       <button type="submit" value="Upload Image"><a href="http://blockcept.epizy.com/">Upload Image</a></button><br><br>
+                                       <div class="col-md-12">
+                                          
+                                          <input type="submit" id="sub">
+                                       </div>
+                                       <h1 id="msg"></h1>
+                                    
+                                   
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg">
+                                 <h1>MAHAVEER PREMIER LEAGUE-8</h1>
+                                 <span>FRANCHISE FORM</span> -->
+                                 <!-- <a class="read_more" href="#">Read More <br>  8959217689</a> -->
+                                 <!-- <p>Contact no -: 8959217689</p> -->
+                              <!-- </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="images/Mpl.jpg" alt="#" style="border-radius: 50px;"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <form id="form2" class="transfot">
+                                       <div class="col-md-12">
+                                          <span>MPl-8</span>
+                                          <h3>FRANCHISE FORM</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="fname" style="color: black; margin: 0px 70px 0px 0px;">FRANCHISE OWNER NAME:</label>
+                                          <input class="transfot_form" placeholder="FRANCHISE OWNER NAME" type="text" name="fname" id="fname" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="lname" style="color: black; margin: 0px 50px 0px 0px;">TEAM NAME:</label>
+                                          <input class="transfot_form" placeholder="TEAM NAME" type="text" name="lname" id="lname" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="email" style="color: black; margin: 0px 90px 0px 0px;">ADDRESS</label>
+                                          <input class="transfot_form" placeholder="ADDRESS" type="text" name="email" id="email" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="age" style="color: black; margin: 0px 80px 0px 0px;">AGE...............</label>
+                                          <input class="transfot_form" placeholder="AGE............." type="number" name="age" id="age" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="player" style="color: black; margin: 0px 50px 0px 0px;">CONTACT NO. :</label>
+                                          <input class="transfot_form" placeholder="CONTACT NO" type="number" name="player" id="player" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="last" style="color: black; margin: 0px 50px 0px 0px;">NAME ON T-SHIRT:</label>
+                                          <input class="transfot_form" placeholder="NAME ON T-SHIRT" type="text" name="last" id="last"required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="contact" style="color: black; margin: 0px 50px 0px 0px;">NUMBER ON T-SHIRT:</label>
+                                          <input class="transfot_form" placeholder="NUMBER ON T-SHIRT" type="varchar" name="contact" id="contact" required>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="shirt" style="color: black; margin: 0px 50px 0px 0px;">T-SHIRT SIZE:</label>
+                                          <input class="transfot_form" placeholder="T-SHIRT SIZE" type="varchar" name="shirt" id="shirt" required>
+                                       </div> -->
+                                       <!-- <div class="col-md-12">
+                                          <label for="tshirt" style="color: black; margin: 0px 50px 0px 0px;">NUMBER ON T-SHIRT:</label>
+                                          <input class="transfot_form" placeholder="Email" type="text" name="tshirt" id="tshirt">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <label for="size" style="color: black; margin: 0px 90px 0px 0px;">T-SHIRT SIZE:</label>
+                                          <input class="transfot_form" placeholder="Email" type="text" name="size" id="size">
+                                       </div> -->
+                                       <!-- <div class="col-md-12">
+                                          
+                                          <input type="submit" id="sub1">
+                                       </div>
+                                       <h1 id="msg1"></h1>
+               
+                                    </form>
+                                    
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+               <!-- <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-5">
+                              <div class="text-bg">
+                                 <h1>Best Logistic Company</h1>
+                                 <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has i</span>
+                                 <a class="read_more" href="#">Contact Us</a>
+                              </div>
+                           </div>
+                           <div class="col-md-12 col-lg-7">
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="ban_track">
+                                       <figure><img src="images/Mpl.jpg" alt="#"/></figure>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <form class="transfot">
+                                       <div class="col-md-12">
+                                          <span>Professional Services</span>
+                                          <h3>Get your transport quote</h3>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <input class="transfot_form" placeholder="Location" type="text" name="Location">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <input class="transfot_form" placeholder="To destination" type="text" name="To destination">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <input class="transfot_form" placeholder="Email" type="text" name="Email">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <input class="transfot_form" placeholder="Contact Number" type="text" name="Contact Number">
+                                       </div>
+                                       <div class="col-md-12">
+                                          <button class="get_now">Get Now quote</button>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <!-- <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div id="about" class="about ">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="about_right">
+                     <figure><img src="images/payment.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2 style="margin-top: 100PX;">Payment Method</h2>
+                     <p> 
+                        The above information is Given by me is Clearly True and there is ANYWHERE
+                        mistake . i Responsible for that so i want to play this Tournament with permission of My family. 
+                     </p>
+                     <a class="read_more" href="#">Read More</a>
+                     <p>Contact no -: 8959217689</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- service section -->
+      <!-- <div id="service" class="service">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2>Our Services</h2>
+                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="service_main">
+                     <div class="service_box blu_colo">
+                        <i><img src="images/ser1.png" alt="#"/></i>
+                        <h4>FLY ANYWHERE</h4>
+                     </div>
+                     <div class="service_box yelldark_colo">
+                        <i><img src="images/ser2.png" alt="#"/></i>
+                        <h4>Cargo service</h4>
+                     </div>
+                     <div class="service_box yell_colo">
+                        <i><img src="images/ser3.png" alt="#"/></i>
+                        <h4> COURIER SERVICES</h4>
+                     </div>
+                     <div class="service_box yelldark_colo">
+                        <i><img src="images/ser4.png" alt="#"/></i>
+                        <h4>BOX STORAGE</h4>
+                     </div>
+                     <div class="service_box yell_colo">
+                        <i><img src="images/ser5.png" alt="#"/></i>
+                        <h4>100% safe</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <a class="read_more" href="#">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end service section -->
+      <!-- vehicles section -->
+      <!-- <section id="vehicles" class="vehicles">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Our Vehicles</h2>
+                     <p>nternet. It uses a dictionary of over 200 Latin words, combined with .</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="veh" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#veh" data-slide-to="0" class="active"></li>
+               <li data-target="#veh" data-slide-to="1"></li>
+               <li data-target="#veh" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc1.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc2.png" alt="#"/></figure>
+                              </div>
+                              <h3 class="blac_co">Truck</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc3.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc1.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc2.png" alt="#"/></figure>
+                              </div>
+                              <h3 class="blac_co">Truck</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc3.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc1.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc2.png" alt="#"/></figure>
+                              </div>
+                              <h3 class="blac_co">Truck</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="vehicles_truck">
+                                 <figure><img src="images/truc3.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#veh" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#veh" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <a class="read_more" href="#">Read More</a>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- end vehicles section -->
+      <!-- testimonial section -->
+      <!-- <div id="testimonial" class="testimonial bottom_cross bottom_cross2">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Testimonials</h2>
+                     <p>nternet. It uses a dictionary of over 200 Latin words, combined with .</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <figure><img src="images/our.png" alt="#"/></figure>
+                                          <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
+                                          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <figure><img src="images/our.png" alt="#"/></figure>
+                                          <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
+                                          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="full cross_layout">
+                                          <div class="testimonial_box">
+                                             <figure><img src="images/our.png" alt="#"/></figure>
+                                             <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
+                                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-caret-left" aria-hidden="true"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-caret-right" aria-hidden="true"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <a class="read_more" href="#">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end testimonial section -->
+      <!-- choose section -->
+      <!-- <div class="choose">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Why Choose Us</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="choose_box">
+                     <i><img src="images/why1.png" alt="#"/></i>
+                     <h3>Our Vission</h3>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-5 offset-md-2">
+                  <div class="choose_box">
+                     <i><img src="images/why2.png" alt="#"/></i>
+                     <h3>Estimate Shipping</h3>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end choose section -->
+      <!-- contact section -->
+      <!-- <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Requst A call  for You</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="con_bg">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-5">
+                     <form id="request" class="main_form">
+                        <div class="row">
+                           <div class="col-md-12 ">
+                              <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactusmess" placeholder="Message" type="type" Message="Name">
+                           </div>
+                           <div class="col-md-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="co_tru">
+                        <figure><img src="images/truc4.png" alt="#"/></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end contact section -->
+      <!--  footer -->
+      <footer>
+         <div class="footer bottom_cross1">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <ul class="location_icon">
+                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Address : Mahaveer colony Obaidullaganj <br> Match venue MPL GROUND 
+                        </li>
+                        <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>Phone : 8959217689</li>
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Email:<br>Shantanupandey213@gmail.com<br></li>
+                     </ul>
+                     <form class="bottom_form">
+                        <h3>Newsletter</h3>
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form>
+                  </div>
+                  <div class="col-md-8">
+                     <div class="map">
+                        <figure><img src="images/footer.jpg" alt="#" style="border-radius: 10px;"/></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2023 All Rights Reserved. Design by<a href="blockcept.ai"> Blockcept.ai</a> shubhamkadam810@gmail.com, Phone no-: +91 77720 33209</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+         
+        
+         let form = document.querySelector("#form1");
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                document.querySelector("#sub").value = "Submiting..";
+                let data = new FormData(form);
+                fetch('https://script.google.com/macros/s/AKfycbwG0AQbCZAYe_bsip5nREh5DutgcOzZVuv00gWDdWZ6b3MQ4jL-ZIFa8I7pyFSD8bql/exec', {
+                        method: "POST",
+                        body: data
+                    })
+                    .then(res => res.text())
+                    .then(data => {
+                        document.querySelector("#msg").innerHTML = data;
+                        document.querySelector("#sub").value = "Submit"
+                    });
+            })
+            
+            let form1 = document.querySelector("#form2");
+            form1.addEventListener('submit', (e) => {
+                e.preventDefault();
+                document.querySelector("#sub1").value = "Submiting..";
+                let data = new FormData(form2);
+                fetch('https://script.google.com/macros/s/AKfycbydRz25XaQ_DOXg_de9Va8JvAlszau4-1fnFnHrcODdSxOjI93XYvDQiTkdpRwKb4cD/exec', {
+                        method: "POST",
+                        body: data
+                    })
+                    .then(res => res.text())
+                    .then(data => {
+                        document.querySelector("#msg1").innerHTML = data;
+                        document.querySelector("#sub1").value = "Submit"
+                    });
+            })
+
+
+      </script>
+   </body>
+</html>
+
